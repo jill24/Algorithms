@@ -31,7 +31,6 @@ public class PrintRootToLeaf {
                 print(arr, len );
 
             }
-            
             printPath(n.left, arr, len);
             printPath(n.right, arr, len);
         }
