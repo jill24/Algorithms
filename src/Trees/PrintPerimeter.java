@@ -28,7 +28,7 @@ public class PrintPerimeter {
         printRight(root);
 
     }
-    
+
     private void printLeft(Node n){
         System.out.print(n.val +" ");
         while(n.left.left != null){
